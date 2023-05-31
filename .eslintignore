@@ -1,0 +1,16 @@
+/.unlighthouse
+/.svelte-kit
+/.netlify
+/package
+/build
+
+!.env.example
+node_modules
+.DS_Store
+.env.*
+.env
+
+# Ignore files for PNPM, NPM and YARN
+package-lock.json
+pnpm-lock.yaml
+yarn.lock

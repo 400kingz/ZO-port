@@ -1,0 +1,15 @@
+/.unlighthouse
+/.svelte-kit
+/explorer
+/.netlify
+/package
+/build
+
+!.env.example
+node_modules
+.DS_Store
+.vscode/*
+.vscode
+.env.*
+.idea
+.env

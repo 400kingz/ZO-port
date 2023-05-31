@@ -1,0 +1,26 @@
+[
+  {
+    "place": "Flur.pro",
+    "description": "Full Stack Developer",
+    "year_start": "2021",
+    "year_end": "¿"
+  },
+  {
+    "place": "Failures & Mistakes",
+    "description": "Basic HTML, Shopify side hustles",
+    "year_start": "2016",
+    "year_end": "2021"
+  },
+  {
+    "place": "Freedom",
+    "description": "You really can learn anything in America",
+    "year_start": "2007",
+    "year_end": "2016"
+  },
+  {
+    "place": "Iraq War Escapee",
+    "description": "US Army Laptop: MS Paint & Browser",
+    "year_start": "2000",
+    "year_end": "2007"
+  }
+]
