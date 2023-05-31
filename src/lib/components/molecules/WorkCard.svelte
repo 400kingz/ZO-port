@@ -8,6 +8,7 @@
   export let title: string;
   export let footer: string;
   export let current: boolean;
+  export let url: string = "";
 </script>
 
 <Animate>
@@ -21,7 +22,7 @@
     <div>
       {#if title}
         <h2 class="underline-offset-7 text-md mb-3 font-bold leading-6 text-neutral">
-          {title}
+          <a href={url}>{title}</a>
         </h2>
       {/if}
       <div

@@ -1,36 +1,42 @@
 [
   {
     "place": "Flur.pro",
+    "url": "https://www.flur.pro/",
     "role": "Founder",
     "description": "Experimenting with large language models and a new way to write code. Most of the time is spent developing web apps, mobile apps, and other software.",
     "current": true
   },
   {
     "place": "ROOKIE",
+    "url": "https://www.rookiesports.co",
     "description": "Rookie is a startup that I co-founded with a buddy of mine, we are currently in the pre-seed round of funding. We are building smart sporting goods that track and analyze how you play the game.",
     "role": "CTO",
     "current": true
   },
   {
     "place": "Boys and Girls Club Ai",
+    "url": "https://sensei-bgc-concept.herokuapp.com",
     "description": "A functioning Boys and Girls Club youth program generator that uses an in house LLM along with a custom API to generate programs for the youth. Proof of concept for now but will be running as a standalone app for the Boys and Girls Club soon.",
     "role": "Developer",
     "current": true
   },
   {
     "place": "Al Ayn Social Care Foundation",
+    "url": "https://www.al-ayn.org",
     "description": "IT assistant for the USA branch. Paid for 6 Google IT Certifications. Really cool things these guys are doing, please check them out!",
     "role": "IT Assistant",
     "current": false
   },
   {
     "place": "Fry's Electronics",
+    "url": "https://arizonazerodownbankruptcy.com/frys-electronics-has-declared-bankruptcy/#:~:text=The%20tech%20superstore%20has%20been,11%20bankruptcy%20petition%20in%20court.",
     "description": "Found my passion for computers and technology here. I worked in the computer department and was responsible for helping customers with their computer needs. I also built custom computers for customers.",
     "role": "A+ Technician",
     "current": false
   },
   {
     "place": "John F. Kennedy High School",
+    "url": "https://kennedy.auhsd.us",
     "description": "First person in my lineage to graduate from an American school, 3.8 GPA. I was the president of the Computer Science Club and the president of the Muslim Student Association.",
     "role": "High School Diploma",
     "current": false

@@ -18,7 +18,7 @@
   >
     <Animate>
       {#each Work as Work}
-        <WorkCard title={Work.place} footer={Work.role} current={Work.current}>
+        <WorkCard url={Work.url} title={Work.place} footer={Work.role} current={Work.current}>
           <p>{Work.description}</p>
         </WorkCard>
       {/each}
