@@ -60,7 +60,7 @@
 
   #universe {
     font-size: 3.5em;
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     width: 100%;
     height: 100%;
