@@ -12,8 +12,10 @@
   <meta name="description" content="Zain Omran's Portfolio site home page." />
 </svelte:head>
 
+<Planet />
+
 <Animate>
-  <Planet></Planet>
+  
 
   <div
     transition:fade|local={{ duration: 800, easing: quintOut }}
@@ -39,3 +41,5 @@
     </div>
   </div>
 </Animate>
+
+
