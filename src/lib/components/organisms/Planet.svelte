@@ -58,6 +58,11 @@
     animation-delay: -2s;
   }
 
+  .circle, .circle2, .circle3, .orbit, #orbit0, #orbit1, #orbit2, .pos, #pos0, #pos1, #pos2, .dot, #dot0, #dot1, #dot2 {
+    backface-visibility: hidden;
+}
+
+
   #universe {
     font-size: 3.5em;
     z-index: -1;
