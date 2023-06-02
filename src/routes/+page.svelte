@@ -1,6 +1,7 @@
 <script lang="ts">
   import Animate from "$components/atoms/Animate.svelte";
   import Button from "$components/atoms/Button.svelte";
+  import Planet from "$components/organisms/Planet.svelte";
 
   import { fade, fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
@@ -12,7 +13,8 @@
 </svelte:head>
 
 <Animate>
-  
+  <Planet></Planet>
+
   <div
     transition:fade|local={{ duration: 800, easing: quintOut }}
     class="flex h-screen w-full flex-col items-center justify-center px-5 lg:items-end lg:px-32"
