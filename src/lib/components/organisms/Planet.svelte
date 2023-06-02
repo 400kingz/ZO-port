@@ -60,7 +60,16 @@
 
   .circle, .circle2, .circle3, .orbit, #orbit0, #orbit1, #orbit2, .pos, #pos0, #pos1, #pos2, .dot, #dot0, #dot1, #dot2 {
     backface-visibility: hidden;
-}
+  }
+
+  .circle, .circle2, .circle3, .orbit, #orbit0, #orbit1, #orbit2, .pos, #pos0, #pos1, #pos2, .dot, #dot0, #dot1, #dot2 {
+    will-change: transform;
+  }
+
+  .circle, .circle2, .circle3, .orbit, #orbit0, #orbit1, #orbit2, .pos, #pos0, #pos1, #pos2, .dot, #dot0, #dot1, #dot2 {
+      transform: translateZ(0);
+  }
+
 
 
   #universe {
