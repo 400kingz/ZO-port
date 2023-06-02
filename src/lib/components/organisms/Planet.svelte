@@ -1,8 +1,5 @@
-<script>
-  import Animate from "$components/atoms/Animate.svelte";
-</script>
 
-<Animate>
+
 
     <div id="universe">
       <div id="galaxy">
@@ -26,7 +23,7 @@
         </div>
       </div>
     </div>
-</Animate>
+
 
 <style>
 
