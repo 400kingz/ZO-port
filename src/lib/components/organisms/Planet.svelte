@@ -1,4 +1,5 @@
 <script lang="ts">
+
   import { onMount, onDestroy } from 'svelte';
   import * as THREE from 'three';
   import HALO from 'vanta/dist/vanta.halo.min';

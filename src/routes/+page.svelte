@@ -2,7 +2,7 @@
   import { onMount, onDestroy } from "svelte";
   import * as THREE from "three";
   import HALO from "vanta/dist/vanta.halo.min";
-  
+
   import Animate from "$components/atoms/Animate.svelte";
   import Button from "$components/atoms/Button.svelte";
   import Planet from "$components/organisms/Planet.svelte";
@@ -29,17 +29,17 @@
   >
 
     <h2
-      class="font-secondary mb-0 text-center text-2xl font-bold text-accent backdrop-blur-sm sm:mb-1 sm:text-4xl sm:font-bold md:text-right"
+      class="font-secondary mb-0 text-center text-2xl font-bold text-accent sm:mb-1 sm:text-4xl sm:font-bold md:text-right"
     >
       Hi, my name is
     </h2>
     <h1
-      class="font-primary z-10 mb-2 mt-1 text-center text-3xl font-bold text-neutral backdrop-blur-sm sm:text-5xl md:text-right lg:text-7xl"
+      class="font-primary z-10 mb-2 mt-1 text-center text-3xl font-bold text-neutral sm:text-5xl md:text-right lg:text-7xl"
     >
       Zain Omran
     </h1>
     <h1
-      class="py-1 text-center text-3xl text-neutral backdrop-blur-sm md:text-right lg:text-[3.05rem]"
+      class="py-1 text-center text-3xl text-neutral md:text-right lg:text-[3.05rem]"
     >
       I'm a "10x" Developer
     </h1>
