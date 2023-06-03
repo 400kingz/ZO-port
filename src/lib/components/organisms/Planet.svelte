@@ -6,7 +6,8 @@
 
   let container: HTMLElement;
 
-  let vantaEffect = null;
+  let vantaEffect: any = null;
+
 
   const setVantaSize = () => {
     if (vantaEffect) {
@@ -31,6 +32,10 @@
       mouseControls: true,
       touchControls: true,
       gyroControls: true,
+      baseColor: 0x006eff,
+      backgroundColor: 0x171717,
+      amplitudeFactor: 1.50,
+      speed: 2,
       minHeight: minHeight,
       minWidth: minWidth,
     });
