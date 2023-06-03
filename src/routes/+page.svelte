@@ -1,4 +1,8 @@
 <script lang="ts">
+  import { onMount, onDestroy } from "svelte";
+  import * as THREE from "three";
+  import HALO from "vanta/dist/vanta.halo.min";
+  
   import Animate from "$components/atoms/Animate.svelte";
   import Button from "$components/atoms/Button.svelte";
   import Planet from "$components/organisms/Planet.svelte";
@@ -12,15 +16,18 @@
   <meta name="description" content="Zain Omran's Portfolio site home page." />
 </svelte:head>
 
-<Planet />
+
 
 <Animate>
+
+  <Planet />
   
 
   <div
     transition:fade|local={{ duration: 800, easing: quintOut }}
     class="flex h-screen w-full flex-col items-center justify-center px-5 lg:items-end lg:px-32"
   >
+
     <h2
       class="font-secondary mb-0 text-center text-2xl font-bold text-accent backdrop-blur-sm sm:mb-1 sm:text-4xl sm:font-bold md:text-right"
     >
@@ -41,5 +48,9 @@
     </div>
   </div>
 </Animate>
+
+<style>
+  /* add proper css for the Planet element so that it is the background */
+</style>
 
 
