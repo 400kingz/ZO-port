@@ -33,9 +33,10 @@
       touchControls: true,
       gyroControls: true,
       baseColor: 0x006eff,
-      backgroundColor: 0x171717,
+      backgroundColor: 0x484848,
+      xOffset: -0.20,
       amplitudeFactor: 1.50,
-      speed: 2,
+      speed: 1.90,
       minHeight: minHeight,
       minWidth: minWidth,
     });
