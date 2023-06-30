@@ -41,7 +41,7 @@
     <h1
       class="py-1 text-center text-3xl text-neutral md:text-right lg:text-[3.05rem]"
     >
-      I'm a "10x" Developer
+      I'm a self taught developer but the good kind.
     </h1>
     <div class="mt-5" transition:fly|local={{ x: 50, delay: 100, duration: 500, easing: quintOut }}>
       <Button href="/work">Check Out My Work</Button>
