@@ -15,16 +15,31 @@
     }
   };
 
-  onMount(() => {
-    let minHeight, minWidth;
-    
-    if (window.innerWidth < 600) {  // for example, for mobile devices
-      minHeight = 480;
-      minWidth = 320;
-    } else {
-      minHeight = window.innerHeight;
-      minWidth = window.innerWidth;
-    }
+onMount(() => {
+  let minHeight, minWidth;
+
+  if (window.innerWidth < 600) { // for example, for mobile devices
+    minHeight = 480;
+    minWidth = 320;
+
+    vantaEffect = HALO({
+      el: container,
+      THREE: THREE,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: true,
+      baseColor: 0x0,
+      backgroundColor: 0x484848,
+      xOffset: 0.1, // Adjust the horizontal position (left to right) for mobile
+      yOffset: 0, // Adjust the vertical position (top to bottom) for mobile
+      amplitudeFactor: 1.50,
+      speed: 1.90,
+      minHeight: minHeight,
+      minWidth: minWidth,
+    });
+  } else {
+    minHeight = window.innerHeight;
+    minWidth = window.innerWidth;
 
     vantaEffect = HALO({
       el: container,
@@ -34,23 +49,24 @@
       gyroControls: true,
       baseColor: 0x006eff,
       backgroundColor: 0x484848,
-      xOffset: -0.20,
+      xOffset: -0.20, // Adjust the horizontal position (left to right) for PC
       amplitudeFactor: 1.50,
       speed: 1.90,
       minHeight: minHeight,
       minWidth: minWidth,
     });
+  }
 
-    window.addEventListener('resize', setVantaSize);
-  });
+  window.addEventListener('resize', setVantaSize);
+});
 
-  onDestroy(() => {
-    if (vantaEffect) {
-      vantaEffect.destroy();
-    }
+onDestroy(() => {
+  if (vantaEffect) {
+    vantaEffect.destroy();
+  }
 
-    window.removeEventListener('resize', setVantaSize);
-  });
+  window.removeEventListener('resize', setVantaSize);
+});
 
 
 

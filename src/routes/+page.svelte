@@ -1,7 +1,4 @@
 <script lang="ts">
-  import { onMount, onDestroy } from "svelte";
-  import * as THREE from "three";
-  import HALO from "vanta/dist/vanta.halo.min";
 
   import Animate from "$components/atoms/Animate.svelte";
   import Button from "$components/atoms/Button.svelte";
@@ -9,6 +6,8 @@
 
   import { fade, fly } from "svelte/transition";
   import { quintOut } from "svelte/easing";
+
+  import Popup from "$components/molecules/Popup.svelte";
 </script>
 
 <svelte:head>
@@ -45,11 +44,16 @@
     </h1>
     <div class="mt-5" transition:fly|local={{ x: 50, delay: 100, duration: 500, easing: quintOut }}>
       <Button href="/work">Check Out My Work</Button>
+      
     </div>
+    <Popup />
   </div>
 </Animate>
 
 <style>
+  Popup {
+    top: 50%;
+  }
   /* add proper css for the Planet element so that it is the background */
 </style>
 
