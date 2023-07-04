@@ -16,7 +16,6 @@
 </svelte:head>
 
 
-
 <Animate>
 
   <Planet />
@@ -38,7 +37,7 @@
       Zain Omran
     </h1>
     <h1
-      class="py-1 text-center text-3xl text-neutral md:text-right lg:text-[3.05rem]"
+      class="py-1 text-center text-3xl italic text-fuchsia-600 md:text-right lg:text-[3.05rem]"
     >
       self taught dev but the good kind.
     </h1>
