@@ -39,7 +39,8 @@
     <h1
       class="py-1 text-center text-3xl italic text-fuchsia-600 md:text-right lg:text-[3.05rem]"
     >
-      self taught dev but the good kind.
+      <!-- shoutout to @turn in DeFi Degen Discord -->
+      Full Stack Developer
     </h1>
     <div class="mt-5" transition:fly|local={{ x: 50, delay: 100, duration: 500, easing: quintOut }}>
       <Button href="/work">Check Out My Work</Button>
