@@ -15,7 +15,7 @@
   },
   {
     "place": "Boys and Girls Club Ai",
-    "url": "https://github.com/400kingz/sensei-azure-bot.git",
+    "url": "https://400kingz-sensei-azure-bot-app-6ddbuo.streamlit.app",
     "description": "A functioning Boys and Girls Club youth program generator that uses an in house LLM along with a custom API to generate programs for the youth. Proof of concept for now but will be running as a standalone app for the Boys and Girls Club soon.",
     "role": "Developer",
     "current": true
