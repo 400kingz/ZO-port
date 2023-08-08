@@ -65,8 +65,8 @@
         <ConfettiToggle>
           <svelte:fragment slot="content">
             <Button
-              href="/pdf/Resume Redacted Info.pdf"
-              download="Resume Redacted Info.pdf"
+              href="/pdf/ZO-Resume.pdf"
+              download="ZO-Resume.pdf"
               classes="px-9"
             >
               <Icon
@@ -164,8 +164,8 @@
             {/each}
             <li>
               <a
-                href="/pdf/Resume Redacted Info.pdf"
-                download="Resume Redacted Info.pdf"
+                href="/pdf/ZO-Resume.pdf"
+                download="ZO-Resume.pdf"
                 class="mt-1 block w-full rounded-md p-3 text-center text-primary transition hover:bg-primary/50 active:bg-primary/50 dark:text-secondary hover:dark:bg-secondary/50 active:dark:bg-secondary/50"
               >
                 Resume
