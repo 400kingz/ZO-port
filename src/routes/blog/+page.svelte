@@ -45,7 +45,7 @@
 
 <svelte:head>
   <title>Blog Posts</title>
-  <meta name="description" content="Zain Omran's Portfolio site blog post page." />
+  <meta name="description" content="Zayne O&#x27;m's Portfolio site blog post page." />
 </svelte:head>
 
 <Animate>

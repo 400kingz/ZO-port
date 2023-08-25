@@ -7,7 +7,7 @@
 
 <svelte:head>
   <title>Work</title>
-  <meta name="description" content="Zain Omran's Portfolio site work page." />
+  <meta name="description" content="Zayne O&#x27;m's Portfolio site work page." />
 </svelte:head>
 
 <div

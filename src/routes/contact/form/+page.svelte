@@ -75,7 +75,7 @@
 
 <svelte:head>
   <title>Contact</title>
-  <meta name="description" content="Zain Omran's Portfolio site contact form page." />
+  <meta name="description" content="Zayne O&#x27;m's Portfolio site contact form page." />
 </svelte:head>
 
 <Animate>

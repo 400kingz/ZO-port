@@ -14,7 +14,7 @@
 
 <svelte:head>
   <title>About</title>
-  <meta name="description" content="Zain Omran's Portfolio site about me page." />
+  <meta name="description" content="Zayne O&#x27;m's Portfolio site about me page." />
 </svelte:head>
 
 <div
@@ -34,13 +34,13 @@
         transition:fade|local={{ delay: 100, duration: 800, easing: quintOut }}
         class="my-5 text-3xl font-bold text-neutral backdrop-blur-sm lg:my-0 lg:mb-5 lg:text-5xl xl:text-6xl"
       >
-        Zain Omran
+        Zayne O&#x27;m
       </h1>
       <p
         transition:fade|local={{ delay: 100, duration: 800, easing: quintOut }}
         class="font-secondary text-md px-8 text-center leading-6 text-accent backdrop-blur-sm lg:px-0 lg:text-left lg:text-lg lg:leading-normal xl:text-xl"
       >
-        Hey, I'm Zain, a highly motivated full stack developer who is always eager to learn and grow. 
+        Hey, I'm Zayne, a highly motivated full stack developer who is always eager to learn and grow. 
         With my expertise in both front-end and back-end development, I am confident in my ability to create innovative and 
         efficient solutions for any project. Slide in my email and let's get in touch!
       </p>

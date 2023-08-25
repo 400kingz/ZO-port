@@ -11,8 +11,8 @@
 </script>
 
 <svelte:head>
-  <title>Zain's Portfolio</title>
-  <meta name="description" content="Zain Omran's Portfolio site home page." />
+  <title>Zayne's Portfolio</title>
+  <meta name="description" content="Zayne O&#x27;m's Portfolio site home page." />
 </svelte:head>
 
 
@@ -34,7 +34,7 @@
     <h1
       class="font-primary z-10 mb-2 mt-1 text-center text-3xl font-bold text-neutral sm:text-5xl md:text-right lg:text-7xl"
     >
-      Zain Omran
+      Zayne O&#x27;m
     </h1>
     <h1
       class="py-1 text-center text-3xl italic text-fuchsia-600 md:text-right lg:text-[3.05rem]"

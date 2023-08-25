@@ -36,11 +36,11 @@
         <img
           class="mr-2.5 square-full shadow-lg"
           src="/images/1.png"
-          alt="Zain Omran Logo Round"
+          alt="Zayne O&#x27;m Logo Round"
           width="36"
           height="36"
         />
-        <p class="text-xl">Zain Omran</p>
+        <p class="text-xl">Zayne O&#x27;m</p>
       </a>
       <div class="justify-center text-sm">
         <ul class="menu menu-horizontal">

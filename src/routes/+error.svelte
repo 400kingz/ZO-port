@@ -23,7 +23,7 @@
 
 <svelte:head>
   <title>{$page.status ?? ""} Error</title>
-  <meta name="description" content="Zain Omran's Portfolio site error page." />
+  <meta name="description" content="Zayne O&#x27;m's Portfolio site error page." />
 </svelte:head>
 
 <Animate>
