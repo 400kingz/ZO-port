@@ -1,9 +1,9 @@
 [
   {
     "place": "Flur.pro",
-    "url": "https://www.flur.pro/",
+    "url": "https://flur-v5.vercel.app/",
     "role": "Founder",
-    "description": "Experimenting with large language models and a new way to write code. Most of the time is spent developing web apps, mobile apps, and other software.",
+    "description": "Freelancing and Experimenting with large language models and a new way to write code. Most of the time is spent developing web apps, mobile apps, and other software.",
     "current": true
   },
   {
@@ -14,16 +14,16 @@
     "current": true
   },
   {
-    "place": "Boys and Girls Club Ai",
-    "url": "https://400kingz-sensei-azure-bot-app-6ddbuo.streamlit.app",
-    "description": "A functioning Boys and Girls Club youth program generator that uses an in house LLM along with a custom API to generate programs for the youth. Proof of concept for now but will be running as a standalone app for the Boys and Girls Club soon.",
+    "place": "Sensai",
+    "url": "https://sensai.streamlit.app/",
+    "description": "A proof-of-concept AI chatbot has been developed to generate youth programs specifically for organizations like the Boys and Girls Club. Powered by an in-house language model and a custom API, this chatbot aims to provide tailored programs for the youth. Currently in the proof-of-concept stage, the plan is to eventually release it as a standalone app for the Boys and Girls Club.",
     "role": "Developer",
     "current": true
   },
   {
     "place": "Al Ayn Social Care Foundation",
     "url": "https://www.al-ayn.org",
-    "description": "IT assistant for the USA branch. Paid for 6 Google IT Certifications. Really cool things these guys are doing, please check them out!",
+    "description": "IT assistant for the USA branch. 6 Google IT Certifications. Really cool things these guys are doing, please check them out!",
     "role": "IT Assistant",
     "current": false
   },
